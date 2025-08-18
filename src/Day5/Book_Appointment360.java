@@ -47,10 +47,7 @@ public class Book_Appointment360 {
         }
         driver.findElement(By.cssSelector("#appointment_form button")).click();
         Thread.sleep(5000); 
-        System.out.println("Form submitted successfully!");
-        
-       	
-
+        System.out.println("Form submitted successfully!");  	
 	}
 
 }
