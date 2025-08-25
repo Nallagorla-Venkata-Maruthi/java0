@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DataProviderSuite">
+	<listeners>
+		<listener class-name="TestNg_Day4.DataProviderListerners"></listener>
+	</listeners>
+	<test name="DataproviderTest">
+		<classes>
+			<class name="TestNg_Day4.DataProviderTest"></class>
+		</classes>
+	</test>
+</suite>

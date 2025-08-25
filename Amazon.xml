@@ -1,0 +1,136 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- 
+<suite name="AmazonSuite">
+    <test name="SmokeTest">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestNg_Day2.AmazonTest"/>
+        </classes>
+    </test>
+    <test name="RegressionTest">
+        <groups>
+            <run>
+                <include name="Regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestNg_Day2.AmazonTest"/>
+        </classes>
+    </test>
+    <test name="SanityTest">
+        <groups>
+            <run>
+                <include name="sanity"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestNg_Day2.AmazonTest"/>
+        </classes>
+    </test>
+</suite>
+-->
+
+
+<!-- Run All Groups Together
+<suite name="EcommerceSuite">
+    <test name="AllTests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+                <include name="Regression"/>
+                <include name="sanitory"/> 
+            </run>
+        </groups>
+        <classes>
+            <class name="TestNg_Day2.EcommerceTest"/>
+        </classes>
+    </test>
+</suite>
+-->
+
+
+<!-- Run only Smoke -->
+<!-- 
+<suite name="EcommerceSuite">
+    <test name="SmokeTests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestNg_Day2.EcommerceTest"/>
+        </classes>
+    </test>
+</suite>
+-->
+
+
+<!-- Regression and sanity -->
+<!--
+<suite name="EcommerceSuite">
+    <test name="RegressionAndSanitoryTests">
+        <groups>
+            <run>
+                <include name="Regression"/>
+                <include name="sanitory"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestNg_Day2.EcommerceTest"/>
+        </classes>
+    </test>
+</suite>
+-->
+<!-- Run Only Class Ignore Methods-->
+<!--
+<suite name="EcommerceSuite">
+    <test name="FullClassRun">
+        <classes>
+            <class name="TestNg_Day2.EcommerceTest"/>
+        </classes>
+    </test>
+</suite>
+-->
+
+
+<!-- Run Specific Methods -->
+<!-- 
+<suite name="EcommerceSuite">
+    <test name="SelectedMethods">
+        <classes>
+            <class name="TestNg_Day2.EcommerceTest">
+                <methods>
+                    <include name="testLogin"/>
+                    <include name="testCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+-->
+
+
+<!-- Run Everthing Exlude Regression-->
+<suite name="EcommerceSuite">
+    <test name="ExcludeRegression">
+        <groups>
+            <run>
+                <exclude name="Regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestNg_Day2.EcommerceTest"/>
+        </classes>
+    </test>
+</suite>
+
+
+
+
+
+

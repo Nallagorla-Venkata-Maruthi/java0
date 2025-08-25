@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="InvokedSuite">
+	<listeners>
+		<listener class-name="TestNg_Day4.MyInvokedMethodListener"></listener>
+	</listeners>
+	<test name="InvikeTest">
+		<classes>
+			<class name="TestNg_Day4.InvokedMethod"></class>
+		</classes>
+	</test>
+</suite>

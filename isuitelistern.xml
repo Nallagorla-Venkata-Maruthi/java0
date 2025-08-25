@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="IsuiteListerner">
+	<listeners>
+		<listener class-name="TestNg_Day4.isuitelisterner"></listener>
+	</listeners>
+	<test name="TestIsuteListerner">
+		<classes>
+			<class name="TestNg_Day4.suiteListerners"></class>
+		</classes>
+	</test>
+</suite>

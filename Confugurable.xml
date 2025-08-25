@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ConfigurableSuite">
+	<listeners>
+		<listener class-name="TestNg_Day4.iconfigurableListners"></listener>
+	</listeners>
+	<test name="ConfigurableTest">
+		<classes>
+			<class name="TestNg_Day4.ConfugurableTest"></class>
+		</classes>
+	</test>
+</suite>

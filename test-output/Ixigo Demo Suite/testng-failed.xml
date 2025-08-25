@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Ixigo Demo Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Ixigo Login Test(failed)">
+    <classes>
+      <class name="TestNg_Day2.Demo_Xm">
+        <methods>
+          <include name="setup"/>
+          <include name="sampleTest"/>
+          <include name="openSite"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestNg_Day2.Demo_Xm -->
+    </classes>
+  </test> <!-- Ixigo Login Test(failed) -->
+</suite> <!-- Failed suite [Ixigo Demo Suite] -->

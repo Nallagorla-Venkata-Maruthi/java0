@@ -1,0 +1,10 @@
+package maven;
+
+public class TestNg {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

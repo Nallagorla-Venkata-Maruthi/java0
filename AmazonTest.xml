@@ -1,0 +1,103 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- Different diffrent test for every one-->
+<!-- 
+<suite name="AmazonSuite">
+
+	<test name="smokeTest">
+		<groups>
+			<run>
+				<include name="smoke"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNg_Day2.AmazonTest"></class>
+		</classes>
+	</test>
+	<test name="RegresionTest">
+		<groups>
+			<run>
+				<include name="Regression">
+				</include>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNg_Day2.AmazonTest"></class>
+		</classes>
+	</test>
+	<test name="sanityTest">
+		<groups>
+			<run>
+				<include name="sanity">
+				</include>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNg_Day2.AmazonTest"></class>
+		</classes>
+	</test>
+</suite>
+-->
+<!--
+<suite name="Amazonsuite">
+	<test name="smokeTest">
+		<groups>
+			<run>
+				<include name="smoke"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNg_Day2.AmazonTest"></class>
+		</classes>
+	</test>
+</suite>
+-->
+<!-- all in single test   -->
+<!--
+<suite name="AmazonSuite">
+	<test name="AllTests">
+		<groups>
+			<run>
+				<include name="smoke"/>
+				<include name="Regression"/>
+				<include name="sanity"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNg_Day2.AmazonTest"/>
+		</classes>
+	</test>
+</suite>
+-->
+<!-- Exculde  -->
+<!--
+<suite name="Amazonsuite">
+	<test name="smokeTest">
+		<groups>
+			<run>
+				<include name="smoke"></include>
+				<exclude name="Regression"></exclude>
+				<exclude name="sanity"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNg_Day2.AmazonTest"></class>
+		</classes>
+	</test>
+</suite>
+-->
+<suite name="Amazonsuite">
+	<test name="smoke + Regression test">
+		<groups>
+			<run>
+				<include name="smoke"></include>
+				<include name="Regression"></include>
+				<exclude name="sanity"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNg_Day2.AmazonTest"></class>
+		</classes>
+	</test>
+</suite>
+
+

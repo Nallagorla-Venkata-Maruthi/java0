@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EcommerceSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegressionAndSanitoryTests(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+        <include name="sanitory"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestNg_Day2.EcommerceTest">
+        <methods>
+          <include name="testAddToCart"/>
+        </methods>
+      </class> <!-- TestNg_Day2.EcommerceTest -->
+    </classes>
+  </test> <!-- RegressionAndSanitoryTests(failed) -->
+</suite> <!-- Failed suite [EcommerceSuite] -->
